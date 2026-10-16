@@ -1,0 +1,1 @@
+{ "issue_category": "WASTE", "urgency": "MEDIUM", "sentiment": "NEGATIVE", "followup_required": "N", "recommended_team": "Sustainability", "escalation_reason": "No escalation required", "data_sensitivity_risk": "LOW", "brief_summary": "Food waste in recycling bin in Building A" }

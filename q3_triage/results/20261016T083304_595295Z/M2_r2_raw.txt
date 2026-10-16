@@ -1,0 +1,1 @@
+{ "issue_category": "WATER", "urgency": "MEDIUM", "sentiment": "NEGATIVE", "followup_required": "N", "recommended_team": "Facilities", "escalation_reason": "No escalation required", "data_sensitivity_risk": "LOW", "brief_summary": "Water leak in Building C" }

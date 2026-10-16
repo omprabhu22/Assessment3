@@ -1,0 +1,80 @@
+{
+  "type": "object",
+  "properties": {
+    "issue_category": {
+      "type": "string",
+      "enum": [
+        "WATER",
+        "ENERGY",
+        "WASTE",
+        "PROCUREMENT",
+        "ACCESSIBILITY",
+        "GOVERNANCE",
+        "OTHER"
+      ]
+    },
+    "urgency": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH",
+        "CRITICAL"
+      ]
+    },
+    "sentiment": {
+      "type": "string",
+      "enum": [
+        "POSITIVE",
+        "NEUTRAL",
+        "NEGATIVE"
+      ]
+    },
+    "followup_required": {
+      "type": "string",
+      "enum": [
+        "Y",
+        "N"
+      ]
+    },
+    "recommended_team": {
+      "type": "string",
+      "enum": [
+        "Emergency Response",
+        "Facilities",
+        "Sustainability",
+        "Procurement Compliance",
+        "Accessibility Support",
+        "Governance",
+        "Human Review"
+      ]
+    },
+    "data_sensitivity_risk": {
+      "type": "string",
+      "enum": [
+        "LOW",
+        "MEDIUM",
+        "HIGH"
+      ]
+    },
+    "escalation_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "brief_summary": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": [
+    "issue_category",
+    "urgency",
+    "sentiment",
+    "followup_required",
+    "recommended_team",
+    "data_sensitivity_risk",
+    "escalation_reason",
+    "brief_summary"
+  ],
+  "additionalProperties": false
+}

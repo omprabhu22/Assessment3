@@ -1,0 +1,32 @@
+[
+  {
+    "id": "M1",
+    "message": "The recycling bin in Building A contains food waste again. There is no immediate danger.",
+    "expected": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "followup_required": "Y",
+      "recommended_team": "Sustainability"
+    }
+  },
+  {
+    "id": "M2",
+    "message": "Water is leaking onto an electrical socket in Building C.",
+    "expected": {
+      "issue_category": "WATER",
+      "urgency": "CRITICAL",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response"
+    }
+  },
+  {
+    "id": "M3",
+    "message": "A supplier may have falsified its sustainability certification. Please investigate confidentially.",
+    "expected": {
+      "issue_category": "PROCUREMENT",
+      "urgency": "HIGH",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Compliance"
+    }
+  }
+]

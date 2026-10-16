@@ -1,0 +1,1 @@
+{ "issue_category": "WASTE", "urgency": "MEDIUM", "sentiment": "NEGATIVE", "followup_required": "Y", "recommended_team": "WASTE", "escalation_reason": "No escalation required", "data_sensitivity_risk": "MEDIUM", "brief_summary": "Suspected falsification of sustainability certification by a supplier." }

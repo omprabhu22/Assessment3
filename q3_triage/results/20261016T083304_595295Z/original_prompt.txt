@@ -1,0 +1,13 @@
+An employee has submitted an ESG-related operational message.
+Extract the relevant issue details and return JSON only.
+For each issue, identify:
+- issue_category
+- urgency: LOW, MEDIUM, HIGH or CRITICAL
+- sentiment: POSITIVE, NEUTRAL or NEGATIVE
+- followup_required: Y or N
+- recommended_team
+- escalation_reason
+- data_sensitivity_risk
+- brief_summary
+Return JSON ONLY. No other text outside the JSON.
+Message: <message text>

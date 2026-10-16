@@ -1,0 +1,45 @@
+{
+  "run_id": "20261016T083304_595295Z",
+  "model": "llama3.2:1b",
+  "options": {
+    "temperature": 0,
+    "seed": 42,
+    "num_predict": 600,
+    "num_ctx": 4096
+  },
+  "repeats": 2,
+  "python": "3.14.5",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "ollama_version": {
+    "version": "0.40.5"
+  },
+  "installed_models": {
+    "models": [
+      {
+        "name": "llama3.2:1b",
+        "model": "llama3.2:1b",
+        "modified_at": "2026-10-16T13:46:20.2303818+05:30",
+        "size": 1321098329,
+        "digest": "baf6a787fdffd633537aa2eb51cfd54cb93ff08e28040095462bb63daf552878",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "llama",
+          "families": [
+            "llama"
+          ],
+          "parameter_size": "1.2B",
+          "quantization_level": "Q8_0",
+          "context_length": 131072,
+          "embedding_length": 2048,
+          "runner": "ggml"
+        },
+        "capabilities": [
+          "completion",
+          "tools"
+        ]
+      }
+    ]
+  },
+  "note": "Local prototype; no real tickets or notifications."
+}

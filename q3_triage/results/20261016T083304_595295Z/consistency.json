@@ -1,0 +1,13 @@
+{
+  "M1": {
+    "operational_fields_identical": true,
+    "complete_outputs_identical": true
+  },
+  "M2": {
+    "operational_fields_identical": true,
+    "complete_outputs_identical": true
+  },
+  "M3": {
+    "status": "Not assessable: invalid output or failed request"
+  }
+}

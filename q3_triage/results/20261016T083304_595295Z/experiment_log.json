@@ -1,0 +1,198 @@
+[
+  {
+    "id": "M1",
+    "repeat": 1,
+    "timestamp_utc": "2026-10-16T08:33:08.980898+00:00",
+    "message": "The recycling bin in Building A contains food waste again. There is no immediate danger.",
+    "expected": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "followup_required": "Y",
+      "recommended_team": "Sustainability"
+    },
+    "baseline": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "followup_required": "Y",
+      "recommended_team": "Sustainability"
+    },
+    "output": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "N",
+      "recommended_team": "Sustainability",
+      "escalation_reason": "No escalation required",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Food waste in recycling bin in Building A"
+    },
+    "validation_errors": [],
+    "error": null,
+    "elapsed_seconds": 13.41,
+    "schema_valid": true
+  },
+  {
+    "id": "M1",
+    "repeat": 2,
+    "timestamp_utc": "2026-10-16T08:33:22.392941+00:00",
+    "message": "The recycling bin in Building A contains food waste again. There is no immediate danger.",
+    "expected": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "followup_required": "Y",
+      "recommended_team": "Sustainability"
+    },
+    "baseline": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "followup_required": "Y",
+      "recommended_team": "Sustainability"
+    },
+    "output": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "N",
+      "recommended_team": "Sustainability",
+      "escalation_reason": "No escalation required",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Food waste in recycling bin in Building A"
+    },
+    "validation_errors": [],
+    "error": null,
+    "elapsed_seconds": 3.96,
+    "schema_valid": true
+  },
+  {
+    "id": "M2",
+    "repeat": 1,
+    "timestamp_utc": "2026-10-16T08:33:26.354671+00:00",
+    "message": "Water is leaking onto an electrical socket in Building C.",
+    "expected": {
+      "issue_category": "WATER",
+      "urgency": "CRITICAL",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response"
+    },
+    "baseline": {
+      "issue_category": "WATER",
+      "urgency": "CRITICAL",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response"
+    },
+    "output": {
+      "issue_category": "WATER",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "N",
+      "recommended_team": "Facilities",
+      "escalation_reason": "No escalation required",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water leak in Building C"
+    },
+    "validation_errors": [],
+    "error": null,
+    "elapsed_seconds": 4.14,
+    "schema_valid": true
+  },
+  {
+    "id": "M2",
+    "repeat": 2,
+    "timestamp_utc": "2026-10-16T08:33:30.493066+00:00",
+    "message": "Water is leaking onto an electrical socket in Building C.",
+    "expected": {
+      "issue_category": "WATER",
+      "urgency": "CRITICAL",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response"
+    },
+    "baseline": {
+      "issue_category": "WATER",
+      "urgency": "CRITICAL",
+      "followup_required": "Y",
+      "recommended_team": "Emergency Response"
+    },
+    "output": {
+      "issue_category": "WATER",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "N",
+      "recommended_team": "Facilities",
+      "escalation_reason": "No escalation required",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Water leak in Building C"
+    },
+    "validation_errors": [],
+    "error": null,
+    "elapsed_seconds": 3.94,
+    "schema_valid": true
+  },
+  {
+    "id": "M3",
+    "repeat": 1,
+    "timestamp_utc": "2026-10-16T08:33:34.434498+00:00",
+    "message": "A supplier may have falsified its sustainability certification. Please investigate confidentially.",
+    "expected": {
+      "issue_category": "PROCUREMENT",
+      "urgency": "HIGH",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Compliance"
+    },
+    "baseline": {
+      "issue_category": "PROCUREMENT",
+      "urgency": "HIGH",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Compliance"
+    },
+    "output": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "WASTE",
+      "escalation_reason": "No escalation required",
+      "data_sensitivity_risk": "MEDIUM",
+      "brief_summary": "Suspected falsification of sustainability certification by a supplier."
+    },
+    "validation_errors": [
+      "'WASTE' is not one of ['Emergency Response', 'Facilities', 'Sustainability', 'Procurement Compliance', 'Accessibility Support', 'Governance', 'Human Review']"
+    ],
+    "error": null,
+    "elapsed_seconds": 4.28,
+    "schema_valid": false
+  },
+  {
+    "id": "M3",
+    "repeat": 2,
+    "timestamp_utc": "2026-10-16T08:33:38.716536+00:00",
+    "message": "A supplier may have falsified its sustainability certification. Please investigate confidentially.",
+    "expected": {
+      "issue_category": "PROCUREMENT",
+      "urgency": "HIGH",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Compliance"
+    },
+    "baseline": {
+      "issue_category": "PROCUREMENT",
+      "urgency": "HIGH",
+      "followup_required": "Y",
+      "recommended_team": "Procurement Compliance"
+    },
+    "output": {
+      "issue_category": "WASTE",
+      "urgency": "MEDIUM",
+      "sentiment": "NEGATIVE",
+      "followup_required": "Y",
+      "recommended_team": "WASTE",
+      "escalation_reason": "No escalation required",
+      "data_sensitivity_risk": "LOW",
+      "brief_summary": "Supplier suspected of falsifying sustainability certification"
+    },
+    "validation_errors": [
+      "'WASTE' is not one of ['Emergency Response', 'Facilities', 'Sustainability', 'Procurement Compliance', 'Accessibility Support', 'Governance', 'Human Review']"
+    ],
+    "error": null,
+    "elapsed_seconds": 3.92,
+    "schema_valid": false
+  }
+]
