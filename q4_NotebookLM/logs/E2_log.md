@@ -7,4 +7,4 @@ Prompt: What responsibilities do staff and students have for waste reduction? Ci
 
 Evidence: `E2_question.md`; `S3-E2.png`.
 
-Evaluation: The response explains bin sorting, reuse and laboratory initiatives and acknowledges missing formal requirements. Useful for practical guidance, but voluntary participation should not be treated as a mandatory duty. Citations appear onscreen but are absent from the saved text. Full claim and citation verification remains outstanding.
+Evaluation: The response explains bin sorting, reuse and laboratory initiatives and acknowledges missing formal requirements. Useful for practical guidance, but voluntary participation should not be treated as a mandatory duty.
